@@ -1,38 +1,35 @@
+@font-face {
+  font-family: 'jua';
+  src: url('./fonts/GowunDodum-Regular.ttf');
+}
 .App {
+  font-family: 'jua';
+}
+
+h1 {
+  font-size: 120px;
+  background: linear-gradient(to right top, #97b6da, #0024f0);
+  color: transparent;
+  -webkit-background-clip: text;
   text-align: center;
+  margin: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header a {
+  color:beige;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header a:hover {
+  color: rgb(15, 15, 15);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete {
+  text-decoration: none;
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 5px;
 }
